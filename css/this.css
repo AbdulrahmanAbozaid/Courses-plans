@@ -1,0 +1,143 @@
+/* Base */
+
+:root {
+    --bs-header: rgb(108 117 125/.8);
+    --main-background: rgb(108 117 125);
+    --sec-background: rgba(200, 200, 200, 0.3);
+    --main-pad: 15px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #777 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* layout */
+
+.wh-32 {
+    width: 43px;
+    height: 43px;
+}
+
+.bg-main {
+    background-color: var(--main-background);
+}
+
+
+/* module */
+
+
+/* <h1 class="bg-secondary mb-0 p-3 text-light fw-bold text-center">java is very easy</h1> */
+
+
+/* ****Header*** */
+
+.z-4 {
+    z-index: 4;
+}
+
+.navbar--bg {
+    background-color: var(--bs-header);
+}
+
+.nav__logo--hover {
+    transition: .8s;
+}
+
+.nav__logo--hover:hover {
+    text-shadow: -17px -9px 25px #fff, 17px 9px 25px #fff;
+}
+
+
+/* main */
+
+.carousel-inner_image {
+    height: 650px;
+}
+
+
+/* Section */
+
+.btn_toggle:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 136%;
+    left: -16px;
+    background-color: lightsteelblue;
+    color: black;
+    width: 95px;
+    border-radius: 15px;
+}
+
+.btn_toggle:hover::before {
+    content: '';
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px 10px 13px 10px;
+    border-color: transparent transparent lightsteelblue transparent;
+    border-style: solid;
+}
+
+
+/* Back image */
+
+.back-img {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/ball.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.back2 {
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+}
+
+
+/* good basic */
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.good-basic img {
+    height: 256px;
+}
+
+
+/* thanks */
+
+
+/* Join us */
+
+.w-2 {
+    width: 1.7rem;
+}
+
+.border-black {
+    border: 1px solid #000 !important;
+}
+
+
+/* footer */

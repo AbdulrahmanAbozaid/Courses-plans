@@ -26,3 +26,13 @@ btnToggle.forEach((item) => {
     // console.log(code[0].innerHTML);
 
 /**========================================================= */
+
+/**====logo======= */
+const logo = document.getElementById('logo');
+window.addEventListener('resize', function() {
+    if (window.innerWidth <= 992) {
+        logo.classList.remove('border-end');
+    } else {
+        logo.classList.add('border-end');
+    }
+});

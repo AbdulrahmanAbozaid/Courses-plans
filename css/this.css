@@ -27,6 +27,7 @@ html {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 
@@ -70,7 +71,7 @@ img {
 /* main */
 
 .carousel-inner_image {
-    height: 650px;
+    height: 600px;
 }
 
 

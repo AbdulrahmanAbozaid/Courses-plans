@@ -29,10 +29,14 @@ btnToggle.forEach((item) => {
 
 /**====logo======= */
 const logo = document.getElementById('logo');
-window.addEventListener('resize', function() {
+window.addEventListener('resize', wndw);
+window.addEventListener('load', wndw);
+
+// add-rmv border of logo
+function wndw() {
     if (window.innerWidth <= 992) {
         logo.classList.remove('border-end');
     } else {
         logo.classList.add('border-end');
     }
-});
+}

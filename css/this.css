@@ -85,7 +85,8 @@ img {
     background-color: lightsteelblue;
     color: black;
     width: 95px;
-    border-radius: 15px;
+    border-radius: 5px;
+    opacity: .99;
 }
 
 .btn_toggle:hover::before {
